@@ -1,0 +1,14 @@
+git remote add origin https://github.com/nathaber/20230605-NathalyBermudez.git
+git init
+git branch -M main
+touch comandos.txt  main.js index.html
+git add .
+git commit -m "Commit 01 de NathalyBermudez"
+git status
+git push origin main
+git branch feature
+git checkout feature
+mkdir Hardware Software SeguridadInformatica
+cd Hardware/
+touch resumen.txt
+mv archivo1 archivo2
